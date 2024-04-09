@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Portfolio DJABRI HAFSA</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.colors.min.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.2/css/all.css">
+    <link rel="stylesheet" href="assets/styles.css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><strong>DJABRI HAFSA</strong></li>
+        </ul>
+        <ul class="pico-color-pink-500">
+          <li><a href="#">Accueil</a></li>
+          <li><a href="#">A propos</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="main">
+        <div class="grid">
+            <div class="center"> 
+                <h1>PORTFOLIO DJABRI HAFSA</h1>
+                <h2><em>Conceptrice d'applications</em></h2>
+                
+            </div>
+            <div> 
+                <img
+                class="moi"
+                src="https://media.licdn.com/dms/image/D4D03AQE378jT2S-1wQ/profile-displayphoto-shrink_800_800/0/1685956973736?e=1717027200&v=beta&t=zB_MJ-j-OBp90qJzQKFx0v4KAi3WisIIQqJaVqOACIA"
+                alt="photo de hafsa DAJBRI"
+              />
+            </div>
+          </div>
+      </section>
+      <section class="apropos">
+        <h2>A PROPOS</h2>
+        <details>
+          <summary role="button">FORMATIONS</summary>
+          <ul>
+            <li>2014-Obtention Licence LEA anglais-arabe</li>
+			<li>2023-<a href="https://www.linkedin.com/school/em-lyon-business-school/" target="_blank">EM LYON</a></li>
+          </ul>
+        </details>
+        <details>
+          <summary role="button">EXPERIENCES</summary>
+          <ul>
+            <li>2016-2018: Assistante administrative- EMH PLOMBERIE</li>
+			<li>2014-2023: Agent de nettoyage- chef d'équipe-<a href="https://www.linkedin.com/company/faura-nettoyage/" target="_blank">FAURA NETTOYAGE</a></li>
+          </ul>
+        </details>
+      </section>
+      <section class="competences">
+        <h2>COMPETENCES</h2>
+        <h3>Hardskills</h3>
+        <div class="grid">
+            <div>
+                <p>HTML</p>
+                <progress value="58" max="100"></progress>
+            </div>
+            <div>
+                <p>CSS</p>
+                <progress value="58" max="100"></progress>
+            </div>
+            <div>
+                <p>FIGMA</p>
+                <progress value="30" max="100"></progress>
+            </div>
+          </div>
+        <h3>SOFTSKILLS</h3>
+        <div class="grid">
+            <div>
+                <p>Communication</p>
+                <progress value="58" max="100"></progress>
+            </div>
+            <div>
+                <p>Curiosité</p>
+                <progress value="58" max="100"></progress>
+            </div>
+            <div>
+                <p>Créativité</p>
+                <progress value="30" max="100"></progress>
+            </div>
+          </div>
+      </section>
+      <section class="projets">
+        <h2>PROJETS</h2>
+        <div class="grid">
+            <div class="iframe"><iframe
+                style="border: 1px solid rgba(0, 0, 0, 0.1)"
+                width="600"
+                height="450"
+                src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FNd9GJKmYvf7ZU6XhBMvuuf%2FMobile-App-Wireframing-UI-Kit-(Community)%3Fnode-id%3D2025-1966%26starting-point-node-id%3D2025%253A1966%26mode%3Ddesign%26t%3DJxLKM5KThu2cxeIU-1"
+                allowfullscreen
+              ></iframe></div>
+            <div class="explication">       
+                <p>Je créer actuellement une plateforme de mise en relation dans le domaine du nettoyage. Le but est de faciliter la relation entre des aprticuliers ou des entreprises ayant un quelconque besoin d'une prestation de nettoyage. Cela peut être du nettoyage régulier d'apaprtements comme du nettoyage de véhicule, de toitures ou de remplacement de salariés dans le cas des entreprises.</p>
+            </div>
+          </div>
+      </section>
+    </main>
+    <footer>
+      <section class="contact">
+        <h2>ME CONTACTER</h2>
+        <form>
+          <fieldset>
+            <label>
+              Nom 
+              <input
+                name="first_name"
+                placeholder="Jean"
+                autocomplete="given-name"
+              />
+            </label>
+            <label>
+                Prénom 
+                <input
+                  name="last_name"
+                  placeholder="Michel"
+                  autocomplete="given-name"
+                />
+              </label>
+            <label>
+              Email
+              <input
+                type="email"
+                name="email"
+                placeholder="jean.michel@gmail.com"
+                autocomplete="email"/> 
+            </label>
+            <label>
+                Votre message
+                <textarea id="message" name="message" rows="5" cols="33" placeholder="Bonjour, je vous contacte..."></textarea>
+            </label>
+            
+          </fieldset>
+          <input type="submit" value="Envoyer" />
+        </form>
+       <a href #><i class="fa-solid fa-arrow-up"></i></a>
+      </section>
+    </footer>
+  </body>
+</html>

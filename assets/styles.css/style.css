@@ -1,0 +1,56 @@
+* {
+    margin: 0px 10px 10px 10px;
+    text-decoration: none;
+  }
+
+header{ 
+  position: fixed;
+  box-sizing: border-box;
+  width: 95vw;
+  background-color: white;
+}  
+.main >.grid{
+  margin-top: 110px;
+}
+img{
+  border-radius: 50%;
+}
+a:hover{
+    color:gray;
+  }
+  
+a{
+    color:black
+  }
+
+.center{
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+ }
+
+.apropos{
+    height: 75vh;
+  }
+
+.iframe{
+  max-width: 40%;
+}
+
+.explication {
+  padding: 40px;
+  display: flex;
+  align-self: center;
+  text-align: justify;
+}
+
+.competences{
+  height: 75vh;
+}
+.fa-solid {
+  background-color: #0172ad;
+  padding: 20px;
+  float: right;
+  color:white;
+  border-radius: 20%;
+}
